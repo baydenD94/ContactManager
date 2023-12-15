@@ -1,0 +1,26 @@
+﻿<Window x:Class="ContactManager.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ContactManager"
+        mc:Ignorable="d"
+        Title="edit zone" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Label Content="First Name:"/>
+            <TextBox Name="viewFN" IsReadOnly="False" Margin="5,5,5,5"/>
+
+            <Label Content="Last Name:"/>
+            <TextBox Name="viewLN" IsReadOnly="False" Margin="5,5,5,5"/>
+
+            <Label Content="Phone:"/>
+            <TextBox Name="viewPN" IsReadOnly="False" Margin="5,5,5,5"/>
+
+            <Label Content="Email:"/>
+            <TextBox Name="viewE" IsReadOnly="False" Margin="5,5,5,5"/>
+        </StackPanel>
+        <Button Content="update" HorizontalAlignment="Center" Margin="0,326,0,0" VerticalAlignment="Top" Height="40" Width="112" Click="update_Click"/>
+
+    </Grid>
+</Window>
